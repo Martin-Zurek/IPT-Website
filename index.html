@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Martin's Site</title>
+    <link rel="icon" href="assets/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Testing</h1>
+    <p>Made By Martin</p>
+
+    <p>Additional text goes here!!!!</p>
+    <p>even more text lmao</p>
+
+    <button class="tablink" id="defaultOpen"onclick="openPage('Home', this)">Home</button>
+    <button class="tablink" onclick="openPage('Page2', this)">Page2</button>
+    <button class="tablink" onclick="openPage('Page3', this)">Page3</button>
+    <button class="tablink" onclick="openPage('Page4', this)">Page4</button>
+
+    <div id="Home" class="tabcontent">
+        <h3>Home</h3>
+        <p>Text Goes Here</p>
+    </div>
+
+    <div id="Page2" class="tabcontent">
+        <h3>Page2</h3>
+        <p>Text Goes Here</p>
+    </div>
+
+    <div id="Page3" class="tabcontent">
+        <h3>Page3</h3>
+        <p>Text Goes Here</p>
+    </div>
+
+    <div id="Page4" class="tabcontent">
+        <h3>Page4</h3>
+        <p>Text Goes Here</p>
+    </div>
+
+    <script>
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+
+            document.getElementById(pageName).style.display = "block";
+
+            elmnt.style.backgroundColor = color;
+        }
+
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>
