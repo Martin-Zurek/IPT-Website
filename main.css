@@ -1,33 +1,19 @@
-body, html {
-height: 100%;
-margin: 0;
-font-family: Arial;
+body {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
 }
 
-.tablink {
-background-color: #555;
-color: white;
-float: left;
-border: none;
-outline: none;
-cursor: pointer;
-padding: 14px 16px;
-font-size: 17px;
-width: 25%;
-}
-  
-.tablink:hover {
-background-color: #777;
+#toprow {
 }
 
-.tabcontent {
-color: white;
-display: none;
-padding: 100px 20px;
-height: 100%;
+.cropcircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: #eee no-repeat center;
+    background-size: cover;
 }
-  
-#Home {background-color: rgb(55,50,50);}
-#Page2 {background-color: rgb(50,55,50);}
-#Page3 {background-color: rgb(50,50,55);}
-#Page4 {background-color: rgb(55,55,55);}
+
+#logo{
+    background-image: url('assets/logo.png');
+}
