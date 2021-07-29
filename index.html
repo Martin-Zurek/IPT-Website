@@ -2,21 +2,157 @@
 <html lang="en">
 
 <head>
-    <title>Martin's Site</title>
-    <link rel="icon" href="assets/logo.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
+	<title>Martin's Portfolio</title>
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+	<meta name="author" content="Martin Zurek">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div id="toprow">
-        <div id="logo" class="cropcircle"></div>
-        <div id="text">
-            <p>Martin</p>
-        </div>
-    </div>
-    <p>Text Goes Here</p>
+	<!-- Navigation bar -->
+	<nav class="nav container void-background">
+		<!-- This "nav-menu" is hidden on mobile -->
+		<!-- Add the modifier "is-active" to display it on mobile -->
+		<div class="nav-left">
+			<a href="https://www.youtube.com/channel/UCSu3KBw1aWSYearxD7l_ZjQ" class="nav-item">
+				<span class="icon">
+					<i class="fa fa-youtube"></i>
+				</span>
+			</a>
+			<a href="https://twitter.com/ItsMartonic" class="nav-item">
+				<span class="icon">
+					<i class="fa fa-twitter"></i>
+				</span>
+			</a>
+			<a href="https://www.instagram.com/itsmartonic/?hl=en" class="nav-item">
+				<span class="icon">
+					<i class="fa fa-instagram"></i>
+				</span>
+			</a>
+			<a href="https://discord.gg/2psMmcbamk" class="nav-item">
+				<span class="icon">
+					<i class="fa fa-discord"></i>
+				</span>
+			</a>
+		</div>
+
+		<div class="nav-right nav-menu">
+			<a class="nav-item" href="#about">About</a>
+			<a class="nav-item" href="#projects">Text 1</a>
+			<a class="nav-item" href="#social">Text 2</a>
+		</div>
+
+		<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+		<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+		<span class="nav-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		</span>
+	</nav>
+
+	<!-- About -->
+	<section id="about" class="section about">
+		<div class="container has-text-centered">
+			<img class="avatar" src="assets/img/logo.png">
+		</div>
+		<div class="container"></br>
+			<p class="intro">
+				Text Goes Here | Text Goes Here | Text Goes Here | Text Goes Here | Text Goes Here
+				Text Goes Here | Text Goes Here | Text Goes Here | Text Goes Here | Text Goes Here
+				Text Goes Here | Text Goes Here | Text Goes Here | Text Goes Here | Text Goes Here
+			</p>
+		</div>
+	</section>
+
+	<!-- Text Goes Here -->
+	<section id="projects" class="section section-2">
+		<div class="container">
+			<div class="has-text-centered">
+				<h3 class="title is-3">Text Goes Here</h3>
+			</div>
+
+			<div class="columns is-multiline is-desktop">
+				<!-- Text Goes Here 1 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<img src="assets/img/logo.png" alt="Image">
+								</figure>
+							</div>
+							<div>
+								<p>Text Goes Here</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<!-- Text Goes Here 2 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<img src="assets/img/logo.png" alt="Image">
+								</figure>
+							</div>
+							<div>
+								<p>Text Goes Here</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<!-- Text Goes Here 3 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<img src="assets/img/logo.png" alt="Image">
+								</figure>
+							</div>
+							<div>
+								<p>Text Goes Here</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Work -->
+	<section id="work" class="section work">
+		<div class="container">
+			<div class="has-text-centered">
+				<h3 class="title is-3">My Work</h3>
+			</div>
+			<div class="work-container columns">
+				<div class="column is-6 has-text-centered">
+					<a target="_blank" href="https://www.google.com/"><img class=""
+							src="assets/img/logo.png"></a>
+				</div>
+				<div class="column is-6 has-text-centered">
+					<a target="_blank" href="https://www.google.com/"><img class=""
+							src="assets/img/logo.png"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<section class="footer has-text-centered container">
+		<h1>Website Created By Martin - Used Template</h1>
+	</section>
+
+	<!-- Scripts  -->
+	<script src="controller.js"></script>
 </body>
 
 </html>
