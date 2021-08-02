@@ -1,3 +1,5 @@
+/* General CSS */
+
 html, body{
 	font-size:16px;
 	color: #dfdfdf;
@@ -106,6 +108,8 @@ a.nav-item:hover {
 	}
 
 }
+
+/* Scrollbar */
 
 ::-webkit-scrollbar {
 	width: 10px;
