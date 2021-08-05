@@ -3,7 +3,7 @@
 html, body{
 	font-size:16px;
 	color: #dfdfdf;
-	background-color: #063647; 
+	background-color: #050f1b; 
 }
 
 a {
@@ -92,7 +92,7 @@ a.nav-item:hover {
 
 @media screen and (max-width: 768px) {
 	.nav-menu {
-		background-color: #063647;
+		background-color: #050f1b;
 	}
 
 	.nav-toggle:hover {
