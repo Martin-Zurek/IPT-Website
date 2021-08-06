@@ -27,8 +27,12 @@ section{
 	background-color: #052d46;
 }
 
-.work {
-	background-color: #05324b;
+.skills {
+	background-color: #05324b
+}
+
+.generaltext {
+	background-color: #052d46;
 }
 
 .footer {
@@ -53,7 +57,7 @@ a.nav-item:hover {
 	padding-top: 1rem;
 }
 
-.work-container img{
+.generaltext-container img{
 	max-width:100%;
 	max-height:175px;
 	margin-bottom:15px;
@@ -71,7 +75,7 @@ a.nav-item:hover {
 
 .box {
 	background-color: transparent;
-	border: 2px solid rgba(7, 59, 79, 0.5);
+	border: 5px solid #052d46;
 }
 
 .title {
@@ -107,6 +111,82 @@ a.nav-item:hover {
 		background-color: #fff;
 	}
 
+}
+
+/* Skills */
+
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #1e90ff;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: #1e90ff;
+}
+.bar.back::before{
+  background-color: #1e90ff;
+}
+
+.bar.learning::before{
+  width: calc(20% - 10px);
+}
+
+.bar.basic::before{
+  width: calc(40% - 10px);
+}
+
+.bar.intermediate::before{
+  width: calc(60% - 10px);
+}
+
+.bar.advanced::before{
+  width: calc(80% - 10px);
+}
+
+.bar.expert::before{
+  width: calc(100% - 10px);
 }
 
 /* Scrollbar */
