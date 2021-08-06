@@ -165,6 +165,7 @@ a.nav-item:hover {
 .bar.back::before{
   background-color: #FFA500;
 }
+
 .bar.front::before{
   background-color: #154321;
 }
