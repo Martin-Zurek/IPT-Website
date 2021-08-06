@@ -170,23 +170,23 @@ a.nav-item:hover {
 }
 
 .bar.learning::before{
-  width: calc(20% - 10px);
+  width: calc(15%);
 }
 
 .bar.basic::before{
-  width: calc(40% - 10px);
+  width: calc(25%);
 }
 
 .bar.intermediate::before{
-  width: calc(60% - 10px);
+  width: calc(69%);
 }
 
 .bar.advanced::before{
-  width: calc(80% - 10px);
+  width: calc(83%);
 }
 
 .bar.expert::before{
-  width: calc(100% - 10px);
+  width: calc(100%);
 }
 
 /* Scrollbar */
