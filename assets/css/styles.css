@@ -7,11 +7,11 @@ html, body{
 }
 
 a {
-  color: #00d1b2;
+  color: #050f1b;
 }
 
 a:hover {
-  color: #00d1b2;
+  color: #050f1b;
 }
 
 section{
@@ -20,15 +20,15 @@ section{
 }
 
 .about {
-	background: #063647;
+	background: #05324b;
 }
 
 .section-2 {
-	background-color: #052D3D;
+	background-color: #052d46;
 }
 
 .work {
-	background-color: #0E282E;
+	background-color: #05324b;
 }
 
 .footer {
