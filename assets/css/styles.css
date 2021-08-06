@@ -152,7 +152,7 @@ a.nav-item:hover {
 
 .bar::before{
   content:  attr(data-skill);
-  background-color: #1e90ff;
+  background-color: #FF0000;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -162,11 +162,11 @@ a.nav-item:hover {
   -o-animation: load 2s 0s;
 }
 
-.bar.front::before{
-  background-color: #1e90ff;
-}
 .bar.back::before{
-  background-color: #1e90ff;
+  background-color: #FFA500;
+}
+.bar.front::before{
+  background-color: #154321;
 }
 
 .bar.learning::before{

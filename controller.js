@@ -10,7 +10,7 @@ window.onload = () => {
   Array.from(navItems).forEach(e => e.addEventListener('click', toggleNav));
 }
 
-var delay = 500;
+var delay = 1000;
 $(".progress-bar").each(function (i) {
   $(this).delay(delay * i).animate({ width: $(this).attr('aria-valuenow') + '%' }, delay);
 
