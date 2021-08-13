@@ -7,11 +7,19 @@ html, body{
 }
 
 a {
-  color: #050f1b;
+	color: #050f1b;
 }
 
 a:hover {
-  color: #050f1b;
+	color: #050f1b;
+}
+
+a:visited {
+	color: #050f1b;
+}
+
+a:active {
+	color: #050f1b;
 }
 
 section{
@@ -141,7 +149,7 @@ a.nav-item:hover {
 
 .bar{
   background-color: #EEE;
-  padding: 2px;
+  padding: 1px;
   border-radius: 15px;
   margin-bottom: 5px;
   font-size: 14px;
