@@ -1,7 +1,7 @@
 /* General CSS */
 
 html, body{
-	font-size:16px;
+	font-size:15px;
 	color: #dfdfdf;
 	background-color: #050f1b; 
 }
@@ -20,6 +20,14 @@ a:visited {
 
 a:active {
 	color: #050f1b;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
 }
 
 section{
@@ -48,27 +56,19 @@ section{
 	padding: 0.5rem;
 }
 
-a.nav-item {
-	color: #dfdfdf;
-}
-
-a.nav-item:hover {
-	color: #fff;
-}
-
 .avatar{
 	height:200px;
 	border-radius: 50%;
 }
 
-.intro-description{
-	padding-top: 1rem;
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
 }
 
-.generaltext-container img{
-	max-width:100%;
-	max-height:175px;
-	margin-bottom:15px;
+.intro-description{
+	padding-top: 1rem;
 }
 
 .project-figure {
@@ -81,6 +81,12 @@ a.nav-item:hover {
 	text-align: justify;
 }
 
+.generaltext-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
 .box {
 	background-color: transparent;
 	border: 5px solid #052d46;
@@ -90,12 +96,6 @@ a.nav-item:hover {
 	color: #fff;
 	text-align: left;
 	margin-bottom: 2rem;
-}
-
-.intro {
-	text-align: justify;
-	width: 80%;
-	margin: 0 auto;
 }
 
 .void-background {
@@ -149,13 +149,13 @@ a.nav-item:hover {
 
 .bar{
   background-color: #EEE;
-  padding: 1px;
+  padding: 2px;
   border-radius: 15px;
   margin-bottom: 5px;
-  font-size: 14px;
-  color: #FFF;
+  font-size: 15px;
+  color: #FFFFFF;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
 }
 
 .bar::before{
